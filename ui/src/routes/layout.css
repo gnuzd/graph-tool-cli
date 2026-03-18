@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-display: 'Archivo', sans-serif;
+	--font-body: 'Archivo', sans-serif;
+	--font-mono: 'JetBrains Mono', 'monospace';
+
+	--color-base-100: #282828;
+	--color-base-200: #32302f;
+	--color-base-300: #3c3836;
+
+	--color-base-content-100: #dfbf8e;
+	--color-base-content-200: #d4be98;
+
+	--color-gray: #928374;
+	--color-red: #ea6962;
+	--color-orange: #e78a4e;
+	--color-yellow: #d8a657;
+	--color-green: #a9b665;
+	--color-aqua: #89b482;
+	--color-blue: #7fa2ac;
+	--color-purple: #d3869b;
+
+	--radius-field: 0.25rem;
+}
+
+body {
+	color: var(--color-base-content-200);
+	background-color: var(--color-base-300);
+}
